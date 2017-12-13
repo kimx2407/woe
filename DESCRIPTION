@@ -1,0 +1,28 @@
+Package: woe
+Title: Tools to calculate Weight of Evidence (WoE) and Information
+        Value.
+Description: Calculate WOE (Weight of Evidence) and IV (Information Value) for
+    variable. Transform raw variables to WOE. Traditionally used in scorecard
+    development.
+Version: 1.1
+Author: EC Kim
+Maintainer: NA
+Depends: R (>= 3.0.1)
+Imports: ggplot2, plyr, RColorBrewer, rpart, sqldf
+License: GPL-2
+LazyData: true
+Collate: 'german_data.R' 'iv.plot.summary.R' 'iv.str.r' 'iv.num.r'
+        'iv.mult.r' 'iv.parse.rpart.rule.r' 'iv.gen.data.r'
+        'iv.plot.woe.r' 'iv.replace.woe.R' 'read_german_data.r'
+        'varlist.r' 'woe-package.r' 'iv.binning.simple.r'
+Built: R 3.4.1; ; 2017-12-13 07:33:15 UTC; windows
+RemoteType: github
+RemoteHost: https://api.github.com
+RemoteRepo: riv
+RemoteUsername: EC Kim
+RemoteRef: master
+RemoteSha: 43fcf268937e3b826a7f9dbc6be92b2f0d9a531a
+GithubRepo: riv
+GithubUsername: EC Kim
+GithubRef: master
+GithubSHA1: 43fcf268937e3b826a7f9dbc6be92b2f0d9a531a

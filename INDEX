@@ -1,0 +1,18 @@
+german_data             German credit data
+iv.binning.simple       Simple binning of numeric variable
+iv.gen.data             Create bigger dataset by replicating german
+                        data dataset
+iv.mult                 Calculate Information Value for defined columns
+                        in data frame
+iv.num                  Calculate Information Value for numeric
+                        (double/integer) vectors
+iv.parse.rpart.rule     Parse rpart rules for one predictor
+iv.plot.summary         Plot summay information values for variables
+iv.plot.woe             Plot WoE patterns for variables
+iv.readgd               Read German Credit dataset
+iv.replace.woe          Replace raw variables with Weight of Evidence
+iv.str                  Calculate Information Value for character or
+                        factor columns
+varlist                 Subset variables in data frame
+woe                     Weight of Evidence and Information Value in
+                        Credit Scoring
